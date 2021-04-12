@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link herf="style.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link rel="icon" href="../Images/art-prices.png">
+<title>C A N V A S | ABOUT US</title>
+<style>
+
+  .navbar {
+    display: flex;  
+    background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(240,239,205,0.520045518207283) 200%) no-repeat;
+    margin: 0px;
+    color: white;
+    
+}
+
+.brand-title {
+    font-size: 1.6rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links ul #btn-home{
+    border-radius: 15px;
+    background: rgb(107 103 103 / 12%);
+
+}
+
+ .navbar a:hover{
+  background-color: grey;
+  border-radius: 15px;
+   color: #d6d85c91;
+
+}
+
+.main{
+  width: 940px;
+  margin: auto;
+  margin-top:50px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+  background-color:#f2f2f2;
+  }
+ 
+p{ 
+    text-align: center;
+  }
+ .about-section {
+  padding: 50px;
+  text-align: center;
+  }
+#tearms_and_privacy_policy a:hover{
+    color: grey;
+    border: 1px solid yellow;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+}
+ #tearms_and_privacy_policy a:visited{
+    color: grey;
+ }
+
+#Social_Media{
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+
+
+}
+
+
+#tearms_and_privacy_policy{
+    margin-top: 3%;
+    float: left;
+     
+
+    }
+#Rights{
+    float: right;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    transition: width 16s;
+}
+.col-md img{
+    transition: width 1s;
+}
+.col-md img:hover{
+     width: 300px;
+}
+ .section_footer{
+    background-color:#f2f2f2;
+    overflow: hidden;
+ }
+.div_for_all_datails_to_communicate{
+    display: flex;
+}
+.div_for_all_datails_to_communicate > div{
+width: 100%;
+margin: 20px;
+padding: 10px;
+
+}
+</style>
+</head>
+<body>
+
+ <!--nav-->
+     
+    <nav class=" container-fluid navbar" >
+        <div class="brand-title">C A N V A S</div>
+        <div class="navbar-links">
+          <ul>
+            <li><a  id="btn-home"href="Product-h.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+   
+      <!-- END NAV -->
+
+
+
+
+  <DIV class="main">
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>store to hlep the young Artiest who want's to sell thier PAINTING.</p>
+  <p>Canvas is the balance between the creativity and commercial</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+       <h2>Reliable</h2>
+        We care about create something big and unique people love to use.
+</div>
+    <div class="col-sm-4">
+         <h2>Passionate</h2>
+          We are continuously learning, improving and creating new opportunities for everyone.
+</div>
+    <div class="col-sm-4">
+        <h2>Simple</h2>
+        Our mission is straightforward, we help young artiest make more money with less effort.
+    </div>
+  </div>
+</div>
+</div>
+</DIV>
+
+<!-- Section the footer-->
+ <div class="container-fluid section_footer" >
+  <div class="div_for_all_datails_to_communicate">
+    <div>
+    <p><STRONG>Get Our Emails </STRONG></p>Sign up to receive emails and get first sales, exclusive content, events and more!</p>
+  </div>
+  <div id="form">
+    <form>
+      <label>
+        <STRONG>Email Address*</STRONG>
+        <br>
+        <input style="border:1px solid grey; width: 300px; height: 50px; padding:12px;" Id="fix_size_input" type="text" name="send"required>
+        <input style="background-color:black; color:white; width: 80px; height: 50px; margin-left:20px; padding: 12px;" id="submit" type="submit" name="receive">
+      </label>
+    </form>
+    <!-- end div_for_all_datails_to_communicate--> 
+    </div>
+ </div>
+ <p style="color: grey">By entering your email address, you agree to receive C A N V A S , promotions, other commercial messages</p><br><br>
+        <hr>
+
+<!--part Social_Media-->
+        <div id="Social_Media">
+             <a href="#"><img src="../Images/icon-twitter.svg"></a>
+             <a href="#"></a><img src="../Images/icon-instagram.svg"></a>
+        </div>
+
+ <!--tearms and privacy policy-->
+        <div id="">
+        <div id="tearms_and_privacy_policy">
+          <a href="#">Privacy Policy</a><a style="border:.5px solid grey; height: .5px; width: .5px; margin: 10px;"></a>
+          <a href="#">Terms of Use</a><a style="border:.5px solid grey; height: .5px; width: .5px; margin: 10px;"></a>
+          <a href="Shipping.html">Shipping</a>
+      
+      
+       </div>
+       </div>
+      <div id="Rights"><p>&copy;2021 C A N V A S All Rights Reserved</p></div>
+      
+       </div>
+       </div>
+<!--end part of section footer-->
+</body>
+</html>
